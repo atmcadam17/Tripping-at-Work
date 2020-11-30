@@ -1,0 +1,28 @@
+﻿title: test
+tags: test
+colorID: 0
+position: 308,272
+---
+This is a test!
+beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep
+is it working?
+
+[[hello. ?|test2]]
+[[bye |test2]]
+===
+
+
+title: test2
+tags: test
+---
+hi!
+
+
+===
+
+title: test3
+tags: test
+---
+goodbye
+ 
+===
