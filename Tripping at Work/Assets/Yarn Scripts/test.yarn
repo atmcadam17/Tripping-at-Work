@@ -3,26 +3,35 @@ tags: test
 colorID: 0
 position: 308,272
 ---
-This is a test!
-beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep beep
-is it working?
+It’s Monday, and the clock is flashing eight o’clock. Wait, eight?  
+...
+Oh, no! I was supposed to be awake an hour ago!
+That means… I’m late! Oh god… oh no! Jesus Christ!
+I haven’t been late to work in exactly four years, two months, and eighteen days!
+I can’t break this streak now! I knew it was a horrible decision to stay up so late on Sunday… what was I thinking? I gotta get to work as soon as possible!!!
+But how? What’s the fastest way there?
+Should I take a cab? Or try to catch the nearest bus?
 
-[[hello. ?|test2]]
-[[bye |test2]]
+[[Take a cab.|cab]]
+[[Take the bus.|bus]]
 ===
 
 
-title: test2
+title: cab
 tags: test
 ---
-hi!
-
+Man, these cab drivers nowadays go way too slowly... Can’t the driver tell I’m in a hurry? But still, taking the cab is probably the better choice, right…?
+I check my watch as we pull into the office’s driveway. I was supposed to clock in at 8:30, and it’s 8:34! Crud!!! There goes my streak!
+If this costs me the employee of the month award… oh, well, I won’t dwell on these depressing thoughts anymore. I better just hurry inside.
 
 ===
 
-title: test3
+title: bus
 tags: test
 ---
-goodbye
- 
+Man, these buses take way too long at each stop! Can’t the driver tell I’m in a hurry? At least I managed to catch the earliest one I could.
+As the bus stops for the third time at the driveway outside the office, I check my watch in a panic.
+I was supposed to clock in at 8:30 AM, and now it’s 8:34! Crud!!! There goes my streak!
+If this costs me the employee of the month award… oh, well, I won’t dwell on these depressing thoughts anymore. I better just hurry inside.
+
 ===
