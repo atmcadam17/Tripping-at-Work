@@ -1,0 +1,61 @@
+﻿title: invest
+tags: invest
+colorID: 0
+position: 308,272
+---
+Hi, how are you?
+[[How high are you?|you]]
+[[Flying colors...|colors]]
+
+===
+title: you
+tags: invest
+---
+Uh... we're doing quite well.
+As you know, we represent JP Morgan Lace, and we're quite interested in what you company has to offer in the aglet sector.
+We'd like to see some market analysis.
+What's your market cap?
+Compound annual growth rate?
+Year-to-date revenue?
+[[Four.|four]]
+[[Super high.|high]]
+
+===
+title: colors
+tags: invest
+---
+Well, we too hope you nail this pitch with flying colors!
+As you know, we represent JP Morgan Lace, and we're quite interested in what you company has to offer in the aglet sector.
+We'd like to see some market analysis.
+What's your market cap?
+Compound annual growth rate?
+Year-to-date revenue?
+[[Four.|four]]
+[[Super high.|high]]
+
+===
+title: four
+tags: invest
+---
+Four?
+Four what?
+Four thousand?
+Four million?
+Or could it be...
+Four billion dollars? My, that's amazing growth!
+But enough about numbers. What makes your aglets better than the rest?
+[[No one out-aglets the aglet hut.|hut]]
+[[Nothing. They're just aglets...|nothing]]
+
+===
+title: high
+tags: invest
+---
+Super high, you say...
+Are you implying it's beyond measure? That's a lofty statement.
+We'll have to run the numbers to see if your story checks out.
+But enough about numbers. What makes your aglets better than the rest?
+[[No one out-aglets the aglet hut.|hut]]
+[[Nothing. They're just aglets...|nothing]]
+
+===
