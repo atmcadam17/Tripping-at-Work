@@ -4,14 +4,20 @@ colorID: 0
 position: 308,272
 ---
 Hi, how are you?
-[[How high are you?|you]]
-[[Flying colors...|colors]]
-
+[[Well, how high are you?|you]]
+[[I see colors flying around...|colors]]
 ===
+
 title: you
 tags: invest
 ---
 Uh... we're doing quite well.
+[[represent]]
+===
+
+title: represent
+tags: invest
+---
 As you know, we represent JP Morgan Lace, and we're quite interested in what you company has to offer in the aglet sector.
 We'd like to see some market analysis.
 What's your market cap?
@@ -19,21 +25,15 @@ Compound annual growth rate?
 Year-to-date revenue?
 [[Four.|four]]
 [[Super high.|high]]
-
 ===
+
 title: colors
 tags: invest
 ---
 Well, we too hope you nail this pitch with flying colors!
-As you know, we represent JP Morgan Lace, and we're quite interested in what you company has to offer in the aglet sector.
-We'd like to see some market analysis.
-What's your market cap?
-Compound annual growth rate?
-Year-to-date revenue?
-[[Four.|four]]
-[[Super high.|high]]
-
+[[represent]]
 ===
+
 title: four
 tags: invest
 ---
@@ -42,20 +42,76 @@ Four what?
 Four thousand?
 Four million?
 Or could it be...
-Four billion dollars? My, that's amazing growth!
-But enough about numbers. What makes your aglets better than the rest?
-[[No one out-aglets the aglet hut.|hut]]
-[[Nothing. They're just aglets...|nothing]]
-
+Four billion dollars?! My, that's amazing growth!
+[[enough]]
 ===
+
+title: enough
+tags: invest
+---
+But enough about numbers. What makes your aglets better than the rest?
+[[No one out-aglets the... uh, aglet hut.|hut]]
+[[Nothing. They're just aglets...|nothing]]
+===
+
 title: high
 tags: invest
 ---
 Super high, you say...
 Are you implying it's beyond measure? That's a lofty statement.
 We'll have to run the numbers to see if your story checks out.
-But enough about numbers. What makes your aglets better than the rest?
-[[No one out-aglets the aglet hut.|hut]]
-[[Nothing. They're just aglets...|nothing]]
+[[enough]]
+===
 
+title: hut
+tags: invest
+---
+Is that true? And what reason do we have to believe that your company is indeed this "aglet hut" that you speak of?
+Forgive me, but claiming to be the aglet hut is not a statement to be made lightly. In this industry, firms live or die based on whether they can out-aglet the competition.
+[[sell]]
+===
+
+title: nothing
+tags: invest
+---
+Wow. That's an interesting take on the subject. I must say, your honestly is extremely refreshing.
+So many firms we visit have lofty claims about their aglets that they could never truly live up to. It's nice to see you stay humble.
+[[sell]]
+===
+
+title: sell
+tags: invest
+---
+Companies are always trying to sell us on some unrealistic expectations of the aglet industry. You know what I mean?
+So what's yours? What does your company believe internally about aglets?
+Do you have some sort of motto?
+[[Quote a movie|movie]]
+[[Quote a president|president]]
+===
+
+title: movie
+tags: invest
+---
+"You can't handle the aglets!"
+...
+Amazing.
+Beautiful.
+That brought a tear to my eye!
+[[thanks]]
+===
+title: president
+tags: invest
+---
+"Ask not what aglets can do for you, ask what you can do for aglets!"
+...
+Amazing.
+Beautiful.
+That brought a tear to my eye!
+[[thanks]]
+===
+
+title: thanks
+tags: invest
+---
+Well, thank you for your time today. We'll be in touch soon.
 ===

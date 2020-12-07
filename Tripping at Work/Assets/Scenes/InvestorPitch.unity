@@ -523,6 +523,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 967368876}
     m_Modifications:
+    - target: {fileID: 2922213600604008049, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922213600604008049, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 2922213600932550013, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
       propertyPath: yarnScripts.Array.data[0]
       value: 
@@ -530,6 +538,14 @@ PrefabInstance:
     - target: {fileID: 2922213600932550013, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
       propertyPath: startNode
       value: invest
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922213601054551181, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922213601054551184, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2922213601181515279, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
       propertyPath: m_fontSize
@@ -642,6 +658,18 @@ PrefabInstance:
     - target: {fileID: 2922213601928843010, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
       propertyPath: m_Color.a
       value: 0.7294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922213602329414675, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922213602329414678, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922213602502526883, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
