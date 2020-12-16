@@ -55,6 +55,7 @@ MC: So these drawers are as long as they are tall? Goodness gracious! Let’s se
 MC: … That voice did not just come out of that drawer.
 ???: Yes it did!
 MC: No it-
+A FOLDER APPEARS IN FRONT OF YOU
 Folder: Yes. It. Did. Put some respect on my name. My first time out of this drawer and I’m stuck with some fool who can’t even figure out where to find a budget review.
 MC: Ouch! For a folder, you’re kind of a jerk. 
 Folder: Being sandwiched between thousands of other versions of me in darkness isn’t exactly peachy. 
@@ -69,7 +70,8 @@ MC: Thanks for the tip, and consider working on that attitude! Somehow you’re 
 ===
 
 
-Title: [D drawer chosen]
+title: d
+tags: filing
 ---
 MC: Is there not a directory anywhere? Would have been helpful if the boss left a note. December was last month so maybe the budget review is there?
 The drawer begins to slide open. And it’s going, and going, and going, and it’s still going? 
@@ -78,6 +80,7 @@ MC: There’s the December folder… for 1960. Let’s ruffle through a few deca
 MC: Wha-?! Who’s there? Gentle where?
 ???: Down here. You’re running your fingers through us a little rough buddy. 
 MC: In the drawer…? Who is speaking?
+A FOLDER APPEARS IN FRONT OF YOU
 Folder: Is your skull thicker than the paper I’m storing? It’s me, the folder, talking. 
 MC: Why are you, the folder, speaking? 
 Folder: Not many folks come by often. Being locked in a drawer for years, I’ve had a lot of time to think about what to say. 
@@ -97,42 +100,6 @@ Folder: Took you long enough. I would say it’s a pity to see you go, but… Th
 [[Open drawer Q|q]]
 ===
 
-title: q
-tags: filing
----
-MC: Q as in Quarter. I need the Q4 review. Brain, please don’t fail me now. 
-Using two hands to pull it out, the drawer shoots out to the other side of the wall, revealing a plethora of Q-titled files.
-MC: How are there so many files? There’s more documents in here than there are words that begin with the letter Q…
-MC: Quilliam…
-MC: Quebecca…
-MC: Quaomi…
-MC: Wait, these aren’t even real words! This is all fake!
-???: Who are you qualling fake?!
-MC: What was that??
-???: Me! Right in front of you! The source of these very much real quords!
-MC: Quords… You mean words? Who are you??
-???: Quo am I? I’m the quolder- I mean folder right in front of you!
-MC: A talking folder??
-Folder: And don’t you forquet it!
-MC: Why do you keep inserting Q’s into random words?!
-Folder: It’s a speech impediment. Had it ever since I was just pulp.
-MC: This is too intense for me right now. I shouldn’t be talking to a folder…
-Folder: Speak for yourself! I shouldn’t be talking to a quman, much less one that makes fun of me for my quisp!
-MC: It’s impressive how committed you are to this Q-word thing. How did you learn to speak like this?
-Folder: I learned by speaking with my quellow quolders. In our drawer, Q is absolute. The one true letter. Each of us begins with Q. Without Q, we would be meaningless, a thing veil of paper lacking the ability to provide service to the qumans.  
-MC: How can you understand me when I’m not speaking like you?
-Folder: What a quizzical query. I guess context clues? All I do is listen to qumans speak when they enter the archive, and all I’m surrounded by are folders bearing the letter Q. Surely I am speaking the quorrect way.
-MC: Yeah, totally. Hey uh, quould you mind asking the quarter four folder from last year to poke his head out? It’d make my life a bit easier. 
-Folder: Sure, I can pass the word along. *Quisper quisper* *Quisper quisper* He’s actually near the front of the drawer, look he’s quaving!
-MC: how can he quave without any hands?
-Folder: Don’t question it bud, just go get what you need. 
-MC: Q4 2019… I’ve never been so glad to find a folder.
-Q4: Quite pleased to meet ya! Empty me! I’ve waited my entire life for this!
-Stacks of paper fly out of the folder. How is the budget review this large?
-Q4: Oh yeah… that really hits the spot. I haven’t been withdrawn from in such a long time, I felt like I was finna burst!
-MC: Well, I guess this is it. Thanks!
-===
-
 title: y
 tags: filing
 ---
@@ -148,6 +115,7 @@ MC: Whoever you are, you can’t take Employee of the Month from me!
 ???: It’s me! The folder!
 MC: Very funny, Arnold. Is this because I made fun of your marionette hobby? So you can puppeteer a folder? Reeeaaal impressive.
 ???: I’m not Arnold! I’m really a file!
+A FOLDER APPEARS IN FRONT OF YOU
 MC: What?!
 ...I can’t believe I’m talking to a folder right now.
 MC: What exactly are you?
@@ -194,6 +162,7 @@ MC: AHHHHHH!
 ???: That looked like a pretty bad fall.
 MC: No… God… Why have you forsaken me…
 ???: God? I’m not God. I’m just a folder.
+A FOLDER APPEARS IN FRONT OF YOU
 MC: A… A folder?!
 Folder: Yeah! I’m a folder. The name’s… uh… I guess you can just call me Folder.
 The folder doesn’t have a visible title. In fact, it’s completely blank.
@@ -217,4 +186,41 @@ MC: Epic.
 Folder: Hey, don’t leave me here! You said you’d take me with you!
 MC: Sorry, but your reasoning is paper-thin.
 [[Open drawer Q|q]]
+===
+
+title: q
+tags: filing
+---
+MC: Q as in Quarter. I need the Q4 review. Brain, please don’t fail me now. 
+Using two hands to pull it out, the drawer shoots out to the other side of the wall, revealing a plethora of Q-titled files.
+MC: How are there so many files? There’s more documents in here than there are words that begin with the letter Q…
+MC: Quilliam…
+MC: Quebecca…
+MC: Quaomi…
+MC: Wait, these aren’t even real words! This is all fake!
+???: Who are you qualling fake?!
+MC: What was that??
+???: Me! Right in front of you! The source of these very much real quords!
+MC: Quords… You mean words? Who are you??
+???: Quo am I? I’m the quolder- I mean folder right in front of you!
+A FOLDER APPEARS IN FRONT OF YOU
+MC: A talking folder??
+Folder: And don’t you forquet it!
+MC: Why do you keep inserting Q’s into random words?!
+Folder: It’s a speech impediment. Had it ever since I was just pulp.
+MC: This is too intense for me right now. I shouldn’t be talking to a folder…
+Folder: Speak for yourself! I shouldn’t be talking to a quman, much less one that makes fun of me for my quisp!
+MC: It’s impressive how committed you are to this Q-word thing. How did you learn to speak like this?
+Folder: I learned by speaking with my quellow quolders. In our drawer, Q is absolute. The one true letter. Each of us begins with Q. Without Q, we would be meaningless, a thing veil of paper lacking the ability to provide service to the qumans.  
+MC: How can you understand me when I’m not speaking like you?
+Folder: What a quizzical query. I guess context clues? All I do is listen to qumans speak when they enter the archive, and all I’m surrounded by are folders bearing the letter Q. Surely I am speaking the quorrect way.
+MC: Yeah, totally. Hey uh, quould you mind asking the quarter four folder from last year to poke his head out? It’d make my life a bit easier. 
+Folder: Sure, I can pass the word along. *Quisper quisper* *Quisper quisper* He’s actually near the front of the drawer, look he’s quaving!
+MC: how can he quave without any hands?
+Folder: Don’t question it bud, just go get what you need. 
+MC: Q4 2019… I’ve never been so glad to find a folder.
+Q4: Quite pleased to meet ya! Empty me! I’ve waited my entire life for this!
+Stacks of paper fly out of the folder. How is the budget review this large?
+Q4: Oh yeah… that really hits the spot. I haven’t been withdrawn from in such a long time, I felt like I was finna burst!
+MC: Well, I guess this is it. Thanks!
 ===
