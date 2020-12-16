@@ -45,15 +45,16 @@ I stare at the message, trying to understand. Crocs? With shoelaces?
 I stare at the picture for a moment.
 ...
 Well, It seems like I’d dealt with this the best I could... time for the next message.
+<<set $mediaSuccess to $mediaSuccess + 1>>
 [[unintelligible]]
 ===
 
 title: unintelligible
 tags: media
 ---
-@epicagletgamer says: “(Insert unintelligible text here, you can’t read it because you’re too high)”
+@epicagletgamer says: “;khldpnclua;dsf”
 What…? I squint at the message, trying my best to decipher it.
-Again, I can hardly make out any of the words… Why are there so many emojis?
+Again, I can hardly make out any of the words… Why does it just look like keysmashing?
 What does it mean? I can’t seem to understand it at all…! 
 What do I do? I try not to panic.
 [[Respond with an expression of gratitude|gratitude]]
@@ -131,6 +132,7 @@ Yes! This is it!
 It's super relevant!
 Boss is gonna love this one!
 Alright, social media complete!
+<<set $mediaSuccess to $mediaSuccess + 1>>
 ===
 
 title: holy
@@ -142,6 +144,7 @@ Yes! This is it!
 It's punny and amazing!
 Boss is gonna love this one!
 Alright, social media complete!
+<<set $mediaSuccess to $mediaSuccess + 1>>
 ===
 
 title: bottom
