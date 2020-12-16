@@ -3,8 +3,16 @@ tags:
 colorID: 0
 position: 308,272
 ---
-It’s Monday, and the clock is flashing eight o’clock. Wait, eight?  
+It’s Monday, and the clock is flashing eight o’clock. Wait, eight?
+
+<<switch_background Boardroom>>
+<<switch_sprite 2 Arnold neutral ease>>
+<<switch_sprite 1 Boss neutral ease>>
+
 ...
+
+<<switch_background None>>
+
 Oh, no! I was supposed to be awake an hour ago!
 That means… I’m late! Oh god… oh no! Jesus Christ!
 I haven’t been late to work in exactly four years, two months, and eighteen days!
