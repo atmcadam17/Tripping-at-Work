@@ -3,6 +3,152 @@ tags: media
 colorID: 0
 position: 308,272
 ---
-Hi, how are you?
+For this task, if I recall correctly, I’ll have to be active on our social media account for a little while. Normally, the idea of social media to me is already suspicious. But right now… it’s extra suspicious. 
+Still, I log into our Twitter account with determination.
+All I’ll have to do is reply to some people and call it a day. There’s no way I can screw this up!
+<<set $mediaSuccess to 0>>
+[[Check notifications|notifications]]
+===
 
+title: notifications
+tags: media
+---
+@m1ncraftsteve says: “wtf??? My aglets keep falling off my crocs this is 100% ruining my drip @SwagletCo  what do you have to say for yourself”
+[[Be direct.|direct]]
+[[Be polite.|polite]]
+===
+
+title: direct
+tags: media
+---
+I stare at the message. Surely this person knows that aglets can’t be attached onto shoes that don’t have shoelaces…?
+ I type back a reply to the best of my ability.
+@SwagletCo replied: “Crocs don’t have shoelaces. Our product will not work without shoelaces.”
+@m1ncraftsteve replied: “bitch you thought” (image of crocs with shoelaces attached)
+...
+Oh, God.
+I stare at the picture with dread. This can’t be real. This can’t be…
+@algetanti6969 replied: “lol get ratioed”
+@iHateAglets replied: “these brand accounts on twitter need to stop trying”
+Crocs... with shoelaces...?
+I try to quell my shaking as I move onto the next message.
+[[unintelligible]]
+===
+
+title: polite
+tags: media
+---
+I stare at the message, trying to understand. Crocs? With shoelaces?
+ I type back a reply to the best of my ability.
+@SwagletCo replied: “Our aglets are designed to be attached to shoelaces. Do your crocs have shoelaces? If so, we are very sorry to hear about your problems! Please message us to provide further detail and we’ll get it fixed up for you.”
+@m1ncraftsteve replied: “aight bet im sliding into ur dms with these on” (image of crocs with shoelaces attached)
+I stare at the picture for a moment.
+...
+Well, It seems like I’d dealt with this the best I could... time for the next message.
+[[unintelligible]]
+===
+
+title: unintelligible
+tags: media
+---
+@epicagletgamer says: “(Insert unintelligible text here, you can’t read it because you’re too high)”
+What…? I squint at the message, trying my best to decipher it.
+Again, I can hardly make out any of the words… Why are there so many emojis?
+What does it mean? I can’t seem to understand it at all…! 
+What do I do? I try not to panic.
+[[Respond with an expression of gratitude|gratitude]]
+[[Respond with a compliment|compliment]]
+[[Respond with a random emoji|emoji]]
+===
+
+title: gratitude
+tags: media
+---
+@SwagletCo replied: “Thank you very much! I hope you will continue to support our products in the future.”
+[[next]]
+===
+
+title: compliment
+tags: media
+---
+@SwagletCo replied: “Wow! Impeccable. I love that. Beautiful! Delicious!”
+[[next]]
+===
+
+title: pizza
+tags: media
+---
+@SwagletCo replied: “:pizza:”
+[[next]]
+===
+
+title: next
+tags: media
+---
+I get a reply soon after, but I still can’t seem to read what it says... only one word jumps out at me, the one intelligible thing in a mess of letters.
+POG...? PogChamp...? What does that mean? Is it something bad?
+I decide not to dwell on it, wiping the sweat from my brow as I move onto my next social media assignment. 
+My boss had told me to post something… but what could I possibly post...
+[[An impact font meme|meme]]
+===
+
+title: meme
+tags: media
+---
+Yes! An impact font meme! Everyone loves those!
+Ok... let's just use this stock photo of an aglet...
+And... done. Now, what should I put for the top text?
+[[WHY YES I BUY AGLETS FROM SWAGLET|yes]]
+[[AGLET LOVERS BE LIKE|lovers]]
+===
+
+title: yes
+tags: media
+---
+Yeah, yeah… this is good!
+“Why yes I buy aglets from Swaglet...”
+And for the bottom?
+[[HOW COULD YOU TELL?|tell]]
+[[BOTTOM TEXT|bottom]]
+===
+
+title: lovers
+tags: media
+---
+Yeah, yeah… this is good!
+“Aglet lovers be like...”
+And for the bottom?
+[[HOOOOOLY SHOE-T|holy]]
+[[BOTTOM TEXT|bottom]]
+===
+
+title: tell
+tags: media
+---
+Yes! This is it!
+“Why yes I buy aglets from Swaglet...”
+"How could you tell?"
+It's super relevant!
+Boss is gonna love this one!
+Alright, social media complete!
+===
+
+title: holy
+tags: media
+---
+Yes! This is it!
+“Aglet lovers be like...”
+“Hoooooly shoe-t.”
+It's punny and amazing!
+Boss is gonna love this one!
+Alright, social media complete!
+===
+
+title: bottom
+tags: media
+---
+Hm... "bottom text" usually fits on things, right?
+Is that too much of an outdated meme format?
+Eh, whatever. Boss is old anyway, he doesn't understand memes.
+Time to move on to my next task.
 ===
