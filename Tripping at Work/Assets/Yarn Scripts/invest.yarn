@@ -4,6 +4,7 @@ colorID: 0
 position: 308,272
 ---
 Hi, how are you?
+<<set $pitchSuccess to 0>>
 [[Well, how high are you?|you]]
 [[I see colors flying around...|colors]]
 ===
@@ -31,6 +32,8 @@ title: colors
 tags: invest
 ---
 Well, we too hope you nail this pitch with flying colors!
+<<set $pitchSuccess to $pitchSuccess + 1>>
+
 [[represent]]
 ===
 
@@ -43,6 +46,7 @@ Four thousand?
 Four million?
 Or could it be...
 Four billion dollars?! My, that's amazing growth!
+<<set $pitchSuccess to $pitchSuccess + 1>>
 [[enough]]
 ===
 
@@ -76,6 +80,7 @@ tags: invest
 ---
 Wow. That's an interesting take on the subject. I must say, your honestly is extremely refreshing.
 So many firms we visit have lofty claims about their aglets that they could never truly live up to. It's nice to see you stay humble.
+<<set $pitchSuccess to $pitchSuccess + 1>>
 [[sell]]
 ===
 
