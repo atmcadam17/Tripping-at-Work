@@ -1,0 +1,220 @@
+﻿title: filing
+tags: filing
+colorID: 0
+position: 308,272
+---
+MC: Boss wanted me to grab some files from the archive for today’s meeting. He mentioned them being essential for the meeting later today… I better not screw this up. With the power of Arnold’s coffee, I am a productivity phenom!
+MC: The archive is in the back of the office, but I’ve never been inside. Most of my time at this job so far has been spent glued to my cubicle. This task will be a nice change of pace. 
+MC: Helloooo file arch- WHAT THE?! 
+MC: THIS is the archive…? It looks like the cabinets stretch endlessly towards the heavens. How does this room even fit in the office? Why is there so much information on aglet sales? *text wobble* I think I’m getting dizzy. 
+MC: *gulp* Now is NOT the time to projectile vomit onto the floor. I’ve been given a job, and I’m not gonna squander this opportunity. I’m going to get. That. File. What file did the boss ask for again?
+[[Last month’s budget review|last]]
+[[Monthly budget reviews|monthly]]
+[[Yearly budget review|yearly]]
+===
+
+title: last
+tags: filing
+---
+MC: Boss mentioned budget reviews and something to do with months. Maybe he needs last month’s budget review, meaning December. Now, where would that be…?
+MC: Scanning the myriad of drawers from afar is just giving me a headache.  Oh hey, there’s a sliding ladder on the left side of the room. 
+MC: I doubt that what I need is way up there. I think this coffee may be messing with my depth perception. This row of drawers in front of me is in alphabetical order… Where should I start?
+[[B drawer|b]]
+[[D drawer|d]]
+[[Use the ladder|ladder]]
+===
+
+title: montly
+tags: filing
+---
+MC: I’m pretty sure the boss needed the monthly budget reviews for the previous quarter. That would mean the Q4 budget review is what I need to find. Where would I find that…? 
+MC: How far up does this go…? I can’t look up any higher without straining my neck… There’s a ladder to the left, but will I need that? There’s a row of drawers in front of me in alphabetical order.
+MC: Quarterly review, where are you?
+[[B Drawer|b]]
+[[Q Drawer|q]]
+[[Use the ladder|ladder]]
+===
+
+title: yearly
+tags: filing
+---
+MC: Didn’t the boss say something about budget reviews? I’m pretty sure he did… Why else would he be sending me here to grab files? It’s a new year, so it’s likely we’ll need the budget review for last year. Let’s get to searching. 
+MC: There’s a ladder to my left. So that’s how people get files way up there. Why would anyone need a ladder if there’s a row of drawers in alphabetical order at eye level? 
+[[B Drawer|b]]
+[[Y Drawer|y]]
+[[Use the ladder|ladder]]
+===
+
+title: b
+tags: filing
+---
+MC: B is for budget… Perhaps all the budget reviews are in here! Let’s open you up!
+With a hearty yank, the drawer slides open. The drawer slides and slides until it hits the wall at the other end of the room with a loud *CLUNK!*
+MC: So these drawers are as long as they are tall? Goodness gracious! Let’s see; Balenciaga, Basketball shoes, Boots, Booties, where’s budget…? No Budget? What the heck? Thanks for nothing, drawer B.
+???: WAIT! Don’t close the drawer! I haven’t seen light in years!
+MC: … That voice did not just come out of that drawer.
+???: Yes it did!
+MC: No it-
+Folder: Yes. It. Did. Put some respect on my name. My first time out of this drawer and I’m stuck with some fool who can’t even figure out where to find a budget review.
+MC: Ouch! For a folder, you’re kind of a jerk. 
+Folder: Being sandwiched between thousands of other versions of me in darkness isn’t exactly peachy. 
+MC: If you’re just gonna be rude and lament over being a folder, I may as well start searching elsewhere. Maybe I'll find a folder who’s more polite.
+Folder: Nonononono wait- please don’t go. I can help! 
+MC: How can you help? Insults don’t really get either of us anywhere.
+Folder: I’m sorry for being mean. I can help you find the budget review, just tell me more about it.
+MC: Well, it’s for a meeting I have coming up later, and I need to present about last quarter's budget.
+Folder: Last quarter? You’re in the wrong place for sure. Budgets aren’t all lumped together in B, that would clog up this drawer excessively. You must be new here… 
+MC: Thanks for the tip, and consider working on that attitude! Somehow you’re filled with more sass than information.
+[[Open Drawer Q|q]]
+===
+
+
+Title: [D drawer chosen]
+---
+MC: Is there not a directory anywhere? Would have been helpful if the boss left a note. December was last month so maybe the budget review is there?
+The drawer begins to slide open. And it’s going, and going, and going, and it’s still going? 
+MC: There’s the December folder… for 1960. Let’s ruffle through a few decades. These folders are thick. My fingers are getting sore just pushing these things around.
+???: Would you mind being a little more gentle? 
+MC: Wha-?! Who’s there? Gentle where?
+???: Down here. You’re running your fingers through us a little rough buddy. 
+MC: In the drawer…? Who is speaking?
+Folder: Is your skull thicker than the paper I’m storing? It’s me, the folder, talking. 
+MC: Why are you, the folder, speaking? 
+Folder: Not many folks come by often. Being locked in a drawer for years, I’ve had a lot of time to think about what to say. 
+Those other chumps in the drawer only talk about budgets or whatever else is stored inside of them. That got boring for me a few decades ago.
+MC: …That doesn’t really answer my question.  What, are you some kind of enlightened folder or something? 
+Folder: I contain multitudes… of files. And questions! I’m more so curious than enlightened.
+MC: What could you possibly be curious about? The most I’d expect you to know is whatever is stored between you.
+Folder: Each time someone has come and opened our drawer I’ve seen such a great big world beyond the endless rows of myself and… more of me? Am I my own folder, or are we all just the same? Is there a life for me beyond eternity in darkness? 
+MC: I definitely do not have time to humor your existential crisis. If you want to find some purpose, maybe helping me out would be useful. Please.
+Folder: Oh wow, how kind of you to ask.  All you humans care about are these dumb files, which lose value as time goes on! Nobody cares about us older folders! We’re useful for about 10 years at most, and then afterwards it’s as if you all just forget about us. We become another drop in the ocean, doomed to become even more insignificant as the next cabinet finds a spot in this seemingly endless archive.
+MC: Well I’m here right now, and you’re kinda butchering your opportunity to be useful. A bit ironic if you ask me. 
+Folder: Perhaps the irony lies in the fact that you’re asking a folder a question you yourself should know the answer to.
+MC: Again, ouch! Alright.
+MC: Wait… Question… Q… Quarterly review…
+MC: I got it! It’s in the Q drawer!
+Folder: Took you long enough. I would say it’s a pity to see you go, but… This hasn’t been quite as stimulating as I would’ve hoped. So long, partner.
+[[Open drawer Q|q]]
+===
+
+title: q
+tags: filing
+---
+MC: Q as in Quarter. I need the Q4 review. Brain, please don’t fail me now. 
+Using two hands to pull it out, the drawer shoots out to the other side of the wall, revealing a plethora of Q-titled files.
+MC: How are there so many files? There’s more documents in here than there are words that begin with the letter Q…
+MC: Quilliam…
+MC: Quebecca…
+MC: Quaomi…
+MC: Wait, these aren’t even real words! This is all fake!
+???: Who are you qualling fake?!
+MC: What was that??
+???: Me! Right in front of you! The source of these very much real quords!
+MC: Quords… You mean words? Who are you??
+???: Quo am I? I’m the quolder- I mean folder right in front of you!
+MC: A talking folder??
+Folder: And don’t you forquet it!
+MC: Why do you keep inserting Q’s into random words?!
+Folder: It’s a speech impediment. Had it ever since I was just pulp.
+MC: This is too intense for me right now. I shouldn’t be talking to a folder…
+Folder: Speak for yourself! I shouldn’t be talking to a quman, much less one that makes fun of me for my quisp!
+MC: It’s impressive how committed you are to this Q-word thing. How did you learn to speak like this?
+Folder: I learned by speaking with my quellow quolders. In our drawer, Q is absolute. The one true letter. Each of us begins with Q. Without Q, we would be meaningless, a thing veil of paper lacking the ability to provide service to the qumans.  
+MC: How can you understand me when I’m not speaking like you?
+Folder: What a quizzical query. I guess context clues? All I do is listen to qumans speak when they enter the archive, and all I’m surrounded by are folders bearing the letter Q. Surely I am speaking the quorrect way.
+MC: Yeah, totally. Hey uh, quould you mind asking the quarter four folder from last year to poke his head out? It’d make my life a bit easier. 
+Folder: Sure, I can pass the word along. *Quisper quisper* *Quisper quisper* He’s actually near the front of the drawer, look he’s quaving!
+MC: how can he quave without any hands?
+Folder: Don’t question it bud, just go get what you need. 
+MC: Q4 2019… I’ve never been so glad to find a folder.
+Q4: Quite pleased to meet ya! Empty me! I’ve waited my entire life for this!
+Stacks of paper fly out of the folder. How is the budget review this large?
+Q4: Oh yeah… that really hits the spot. I haven’t been withdrawn from in such a long time, I felt like I was finna burst!
+MC: Well, I guess this is it. Thanks!
+===
+
+title: y
+tags: filing
+---
+MC: Yearly budget review… of course that would be filed under Y!
+The drawer seems a bit stuck. Gotta yank it just a bit more…
+An endless drawer stretches out to the opposite wall but it’s… empty? Wait, no, there’s a single file in here. All it’s called is Y?
+MC: Let’s see what secrets hide in the folder of Y…
+MC: Nothing?! It’s completely empty! I should just throw this away. It’s just dead weight, clogging up the filing system.
+???: No! Don’t get rid of me! I’m too young to die!
+MC: Is someone there?
+MC: Is this some sort of a prank, Arnold?!
+MC: Whoever you are, you can’t take Employee of the Month from me!
+???: It’s me! The folder!
+MC: Very funny, Arnold. Is this because I made fun of your marionette hobby? So you can puppeteer a folder? Reeeaaal impressive.
+???: I’m not Arnold! I’m really a file!
+MC: What?!
+...I can’t believe I’m talking to a folder right now.
+MC: What exactly are you?
+???: Why, I’m pleased to meet you.
+MC: That doesn’t answer my question!
+???: No, my name is Y! My name is Y and I’m pleased to meet you.
+MC: I can’t take this right now. I must be going crazy. I should just throw you- er, the folder into the trash. That way it can’t talk to me anymore.
+Y: Wait! Don’t send me to the landfill! Anywhere but there!
+MC: Right! Employees of the Month don’t throw away folders…
+Y: Exactly!
+MC: They recycle them! Good call!
+Y: No! That’s not what I meant!
+MC: ...Compost?
+Y: Listen here, bud. The only place I should be going is in there.
+MC: Are you trying to point somewhere? I can’t tell. The whole “files not having hands” thing…
+Y: You’re going to put me in the A drawer.
+MC: The A drawer? But that’s not where you belong!
+Y: Exactly! But no one ever files anything inside me. They always stick documents in the other drawers before they even get to me. You know how depressing it is to be at the end of the alphabet? Z hasn’t even been opened in decades! I heard there’s rats living in that drawer. Please don’t leave me to fall victim to the same fate!
+MC: So you want me to move you to the first drawer.
+Y: I’ll even tell you where the document you want is! Please! I’m begging you!
+MC: Fine.
+The A drawer opens up and is packed with files. Y will no doubt be lost in the sauce in here, but I couldn’t care less.
+Y: Thanks! Now, a budget is what you needed? Try the Q drawer.
+[[Open drawer Q|q]]
+===
+
+title: ladder
+tags: filing
+---
+MC: Well, this ladder isn’t gonna climb itself. Guess I better get to it.
+Rung after rung starts to feel like floor after floor. How far up does this ladder go?
+MC: Don’t look down, don’t look down, don’t look down…
+[[Look down|down]]
+===
+
+title: down
+tags: filing
+---
+MC: Ah! I should’ve listened to myself! I can’t even see the floor from here!
+MC: But what’s that up there? Is that...? I think… I think I see the light…
+The ladder starts to buckle and collapse.
+MC: AHHHHHH!
+*thump*
+???: That looked like a pretty bad fall.
+MC: No… God… Why have you forsaken me…
+???: God? I’m not God. I’m just a folder.
+MC: A… A folder?!
+Folder: Yeah! I’m a folder. The name’s… uh… I guess you can just call me Folder.
+The folder doesn’t have a visible title. In fact, it’s completely blank.
+MC: I’m dead. I must be dead. Oh my God. I died and got sent to Hell and Satan is disguising himself as a folder.
+Folder: Satan?! I’m not him either! I’m just a humble folder!
+MC: Then… what are you doing outside of your drawer?
+Folder: I… I don’t have a drawer.
+Folder: Every folder gets put into a drawer. And every folder gets organized in that drawer. If they’re lucky, they might even get a document put inside them. But me… I was never put into a drawer. I was never given a title, or even a letter. Now I just sit out here, looking at all my brethren, cozy in their drawers.
+MC: So… I’m guessing you want me to put you into a drawer.
+Folder: No! I couldn’t stand it! Being the last file in the drawer?! That’s a source of immeasurable shame!
+Folder: What I’d really like is to see the world.
+MC: And how am I supposed to help with that?
+Folder: By showing me! Just crumple me up and put me in your pocket! I’ll go where you go!
+MC: Fine, as long as you tell me where the file I need is.
+Folder: Say less. I spend all day watching documents go in and out of these drawers. Nothing gets past me.
+MC: Great. I need some kind of budget…
+Folder: The budget?
+Folder: The Q4 budget?
+Folder: It’s in the Q drawer!
+MC: Epic.
+Folder: Hey, don’t leave me here! You said you’d take me with you!
+MC: Sorry, but your reasoning is paper-thin.
+[[Open drawer Q|q]]
+===

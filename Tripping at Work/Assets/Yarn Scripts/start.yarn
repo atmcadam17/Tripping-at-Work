@@ -3,10 +3,15 @@ tags:
 colorID: 0
 position: 308,272
 ---
-It’s Monday, and the clock is flashing eight o’clock. Wait, eight?  
+...
+<<play_music Alarm>>
+It’s Monday, and the clock is flashing eight o’clock. Wait, eight?
 ...
 Oh, no! I was supposed to be awake an hour ago!
 That means… I’m late! Oh god… oh no! Jesus Christ!
+
+<<stop_music>>
+
 I haven’t been late to work in exactly four years, two months, and eighteen days!
 I can’t break this streak now! I knew it was a horrible decision to stay up so late on Sunday… what was I thinking? I gotta get to work as soon as possible!!!
 But how? What’s the fastest way there?
@@ -20,6 +25,9 @@ Should I take a cab? Or try to catch the nearest bus?
 title: cab
 tags:
 ---
+<<switch_background Taxi>>
+<<play_music Driving>>
+
 Man, these cab drivers nowadays go way too slowly... Can’t the driver tell I’m in a hurry? But still, taking the cab is probably the better choice, right…?
 I check my watch as we pull into the office’s driveway. I was supposed to clock in at 8:30, and it’s 8:34! Crud!!! There goes my streak!
 [[coffee]]
@@ -29,6 +37,9 @@ I check my watch as we pull into the office’s driveway. I was supposed to cloc
 title: bus
 tags:
 ---
+<<switch_background Bus>>
+<<play_music Driving>>
+
 Man, these buses take way too long at each stop! Can’t the driver tell I’m in a hurry? At least I managed to catch the earliest one I could.
 As the bus stops for the third time at the driveway outside the office, I check my watch in a panic.
 I was supposed to clock in at 8:30 AM, and now it’s 8:34! Crud!!! There goes my streak!
@@ -41,18 +52,20 @@ tags:
 ---
 If this costs me the employee of the month award… oh, well, I won’t dwell on these depressing thoughts anymore. I better just hurry inside.
 
-// Picture of office lobby
-// Click to enter the elevator
-// Transition to picture of the inside of an elevator, maybe also add terrible elevator music
+<<switch_background Elevator>>
+<<play_music Elevator>>
 
 The ride up feels like an eternity. I can’t help but yawn as it takes me to my floor, and it suddenly hits me how tired I feel… I can only hope this doesn’t affect my performance today.
 
-// elevator ding
+<<play_sound Ding>>
 
 And here I am.
+
+<<switch_background Office>>
+
 I leave and walk as fast as I can to my desk. Maybe no one noticed my tardiness… As I slump down in my desk, Arnold walks by.
 
-// arnold appears
+<<switch_sprite 1 Arnold neutral ease>>
 
 Arnold: Hey, got a case of the Mondays? Ha ha ha! You came in late today.
 Damn it, Arnold!
@@ -61,11 +74,11 @@ Arnold: Hmmm… you know, I got just the thing for that. Can you meet me in the 
 MC: ...Why? What’s in there?
 Arnold: Just meet me there and I’ll tell you everything.
 
-// Go to the break room. Include pictures of the inside of the break room, and Arnold
+<<switch_background BreakRoom>>
+<<switch_sprite 1 none x ease>>
+<<switch_sprite 1 Arnold coffee ease>>
 
 Arnold: Behold… the special office brew!
-
-// Picture of a coffee mug can appear in his hand?
 
 Arnold: It’s a very special coffee made just for the most tired of boys. Like me. I’m always tired. But this stuff is guaranteed to give you the perfect amount of energy for the rest of the day today.
 MC: ...You made this coffee for me?
@@ -82,7 +95,7 @@ tags:
 ---
 MC: I guess a little bit of coffee can’t hurt…
 
-// Image of Arnold and the coffee fade to black
+<<switch_sprite 1 none x ease>>
 
 I take the cup of coffee from Arnold and sip it. It… tastes a little funny. Maybe it’s one of those rare blends like Arnold had said. I decide not to question it, finishing off the whole cup at my desk.
 It takes a few minutes, but soon enough, I can feel myself becoming more alert. The sluggishness and desire to nap from earlier fades away. Everything sharpens.
@@ -97,17 +110,21 @@ tags:
 ---
 MC: I’m not really a coffee drinker. Thanks, but no thanks.
 Arnold: Then it’s mine!
+
+<<switch_sprite 1 Arnold emptyMug instant>>
+
 I watch as Arnold drinks the entire mug of coffee down in one go without breaking eye contact.
 
-// Replace coffee mug picture with an empty mug?
+<<switch_background None>>
 
 Then, I go back to work, feeling even more tired than before… 
-
-// Cubicle picture fades to black. Timer for a few seconds before BAM - text
+<<switch_sprite 1 none x instant>>
+<<wait 2>>
 
 Boss: HEY! YOU! Have you been asleep this WHOLE TIME?
 
-// Picture of the boss fades in
+<<switch_background Office>>
+<<switch_sprite 1 Boss neutral none>>
 
 Boss: I can’t believe I ever considered you for employee of the month…!!
 MC: What…?
@@ -117,7 +134,8 @@ And then…
 Oh, no.
 Boss: I see you consider COMPANY HOURS to be your NAPTIME, HUH? You can forget about that bonus, too!
 I apologize profusely and begin to pack up my things. All I can think about is how I should have drank that coffee…
-
-[[GAME OVER|start]]
-// Go back to coffee choice, or restart game
+GAME OVER
+<<switch_background None>>
+<<switch_sprite 1 none x instant>>
+[[RESTART|start]]
 ===
