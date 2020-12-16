@@ -131,8 +131,8 @@ Yes! This is it!
 "How could you tell?"
 It's super relevant!
 Boss is gonna love this one!
-Alright, social media complete!
 <<set $mediaSuccess to $mediaSuccess + 1>>
+[[end]]
 ===
 
 title: holy
@@ -143,8 +143,8 @@ Yes! This is it!
 “Hoooooly shoe-t.”
 It's punny and amazing!
 Boss is gonna love this one!
-Alright, social media complete!
 <<set $mediaSuccess to $mediaSuccess + 1>>
+[[end]]
 ===
 
 title: bottom
@@ -154,4 +154,17 @@ Hm... "bottom text" usually fits on things, right?
 Is that too much of an outdated meme format?
 Eh, whatever. Boss is old anyway, he doesn't understand memes.
 Time to move on to my next task.
+[[end]]
+===
+
+title: end
+tags: media
+---
+<<if $mediaSucess >= 1>>
+    Alright, social media complete!
+    <<set_result win>>
+<<else>>
+    Time to move on to my next task.
+    <<set_result lose>>
+<<endif>>
 ===

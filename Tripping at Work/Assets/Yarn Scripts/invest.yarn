@@ -118,5 +118,12 @@ That brought a tear to my eye!
 title: thanks
 tags: invest
 ---
-Well, thank you for your time today. We'll be in touch soon.
+Well, thank you for your time today.
+<<if $pitchSucess >= 2>>
+    You did great! We'll be in touch soon.
+    <<set_result win>>
+<<else>>
+    That was... interesting. We, uh, might need to reconsider our offer.
+    <<set_result lose>>
+<<endif>>
 ===
