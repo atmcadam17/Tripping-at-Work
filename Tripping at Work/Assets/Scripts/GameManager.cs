@@ -13,18 +13,39 @@ public class GameManager : Singleton<GameManager>
     private int currentSceneIndex = 0;
     
     public List<Minigame> minigameList;
+    public int minigamesWon = 0;
+    
     public List<Sound> soundList;
     private AudioSource source;
+
+    [SerializeField] private string winSceneName;
+    [SerializeField] private string loseSceneName;
     
     private void Awake()
     {
         Debug.Log(Instance);
     }
     
+    void OnEnable()
+    {
+        Debug.Log("manager enabled");
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+    
+    // called every time a new scene loads
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("OnSceneLoaded: " + scene.name);
+        Debug.Log(mode);
+        _dialogueRunner = GameObject.Find("Canvas").transform.Find("Dialogue").transform.Find("DialogueRunner")
+            .GetComponent<DialogueRunner>();
+
+        StartCoroutine(LoadNewCommands(.01f));
+    }
+
     [System.Serializable]
     public struct Minigame
     {
-        public string gameName; // called using command
         public string sceneName; // associated scene
         public bool won; // state (false by default)
     }
@@ -38,12 +59,9 @@ public class GameManager : Singleton<GameManager>
 
     void Start()
     {
-        _dialogueRunner.AddCommandHandler("load_next", LoadNextScene);
-        _dialogueRunner.AddCommandHandler("set_result", SetGameResult);
+        _dialogueRunner = GameObject.Find("Canvas").transform.Find("Dialogue").transform.Find("DialogueRunner")
+            .GetComponent<DialogueRunner>();
         
-        _dialogueRunner.AddCommandHandler("play_music", PlayMusic);
-        _dialogueRunner.AddCommandHandler("stop_music", StopMusic);
-        _dialogueRunner.AddCommandHandler("play_sound", PlaySound);
         source = GetComponent<AudioSource>();
     }
 
@@ -53,6 +71,20 @@ public class GameManager : Singleton<GameManager>
         {
             Application.Quit();
         }
+    }
+
+    public IEnumerator LoadNewCommands(float t)
+    {
+        yield return new WaitForSeconds(t);
+        
+        _dialogueRunner.AddCommandHandler("load_next", LoadNextScene);
+        _dialogueRunner.AddCommandHandler("set_result", SetGameResult);
+        
+        _dialogueRunner.AddCommandHandler("play_music", PlayMusic);
+        _dialogueRunner.AddCommandHandler("stop_music", StopMusic);
+        _dialogueRunner.AddCommandHandler("play_sound", PlaySound);
+        
+        _dialogueRunner.AddCommandHandler("end_game", EndGame);
     }
 
     // switches to the next scene in sceneNames - called by the command load_next
@@ -68,7 +100,7 @@ public class GameManager : Singleton<GameManager>
     private void SetGameResult(string[] parameters)
     {
         // find current minigame in minigameList
-        var newGame = parameters[0];
+        var result = parameters[0];
         Minigame currentMinigame;
         
         foreach (var game in minigameList)
@@ -80,13 +112,17 @@ public class GameManager : Singleton<GameManager>
         }
 
         // sets result based on command parameter (newGame)
-        switch (newGame)
+        Debug.Log("setting result");
+        switch (result)
         {
             case "win":
                 currentMinigame.won = true;
+                minigamesWon++;
+                Debug.Log("result set true");
                 break;
             case "lose":
                 currentMinigame.won = false;
+                Debug.Log("result set false");
                 break;
             default:
                 Debug.Log("Command set_result takes only param \"win\" or \"lose\".");
@@ -109,7 +145,6 @@ public class GameManager : Singleton<GameManager>
         var soundName = parameters[0];
         source.clip = GetSoundFromList(soundName);
         source.Play();
-        Debug.Log("music");
     }
 
     private void StopMusic(string[] parameters)
@@ -127,5 +162,31 @@ public class GameManager : Singleton<GameManager>
             }
         }
         return null;
+    }
+
+    private void EndGame(string[] parameters)
+    {
+        var gamesWon = 0;
+        for (int i = 0; i < minigameList.Count; i++)
+        {
+            if (minigameList[i].won)
+            {
+                gamesWon++;
+            }
+        }
+
+        if (minigamesWon >= 1)
+        {
+            SceneManager.LoadScene(winSceneName);
+        }
+        else
+        {
+            SceneManager.LoadScene(loseSceneName);
+        }
+    }
+
+    private void LoadByName(string[] parameters)
+    {
+        SceneManager.LoadScene(parameters[0]);
     }
 }

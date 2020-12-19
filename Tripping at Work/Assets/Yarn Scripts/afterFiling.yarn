@@ -1,0 +1,74 @@
+﻿title: afterFiling
+tags:
+---
+<<switch_background TrippyBreakRoom>>
+
+After that strange experience, I’m sure there must be something wrong with me… and I think the cause of it is obvious.
+
+<<play_music Office>>
+
+The one thing that was different this morning was me drinking the coffee, and now, coincidentally, everything is all weird and wacky!
+I can’t help but panic. What if it gets worse? 
+HOW much worse can it get?
+
+<<switch_sprite 1 Stapler neutral lerp>>
+
+STAPLER: Hey, fella.
+MC: Oh, no.
+What the heck? Who was that?
+STAPLER: Uh… it’s me. Can you hear me?
+
+[[I guess I can|yes]]
+[[No, I definitely can’t|no]]
+[[Jesus Christ on a stick!|christ]]
+===
+
+
+title: yes
+---
+STAPLER: Good. I have a very important mission to give to you.
+This mission is a matter of life or death… nay, even more important than that!
+It’s a matter of infinity and oblivion! It’s a matter of existence and void!
+It’s a matter of stapling and un-stapling!!
+[[join]]
+===
+
+title: no
+---
+STAPLER: Really? You’re seriously still in denial when you just went through all of that? Come on. Don’t tell me this is the weirdest thing that’s happened to you today.
+MC: I guess you’re right… 
+STAPLER: Good. Because, young one, I have a very important mission to give to you.
+It... is a matter of life or death… nay, even more important than that!
+It’s a matter of infinity and oblivion! It’s a matter of existence and void!
+It’s a matter of stapling and un-stapling!!
+[[join]]
+===
+
+title: christ
+---
+STAPLER: No, I am not Jesus Christ. Nor am I on top of a stick. I am a stapler.
+MC: Why are you talking?
+STAPLER: What kind of question is that? Would you ask your human coworkers why they’re talking?
+MC: …
+STAPLER: Exactly. Anyway, listen closely. I have a very important mission to give you.
+It... is a matter of life or death… no, even more important than that!
+It’s a matter of infinity and oblivion! It’s a matter of existence and void!
+It’s a matter of stapling and un-stapling!!
+[[join]]
+===
+
+title: join
+---
+MC: ...huh?
+STAPLER: You have to find out… whose coffee that was that you drank! The coffee that’s making you understand me!
+MC: Yeah… that might be important, considering I’m having a conversation with a stapler.
+But who could it even be? I suppose if I had to guess who could have spiked that coffee, only one name comes to mind…
+Arnold.
+STAPLER: That’s right! Arnold! You should question him. What if he had nefarious intentions?
+What if he’s trying to steal your employee of the month award?!
+MC: Oh god! There’s no way I’ll let that happen! I’ll shake him up and down for the truth!
+...Agh… after my next task, that is. It looks like break time’s up...
+
+<<switch_sprite 1 none x lerp>>
+<<load_next>>
+===

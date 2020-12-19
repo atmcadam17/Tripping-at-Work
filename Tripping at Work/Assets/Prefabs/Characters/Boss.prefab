@@ -98,4 +98,6 @@ MonoBehaviour:
   sprites:
   - name: neutral
     sprite: {fileID: 21300000, guid: adf0ad9453b0f4596a012b040f01016a, type: 3}
+  - name: coffee
+    sprite: {fileID: 21300000, guid: fd0e3689e71124d6298e6555a7cfeeaf, type: 3}
   characterName: Boss

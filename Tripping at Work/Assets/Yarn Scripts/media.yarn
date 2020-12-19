@@ -167,4 +167,5 @@ tags: media
     Time to move on to my next task.
     <<set_result lose>>
 <<endif>>
+<<load_next>>
 ===

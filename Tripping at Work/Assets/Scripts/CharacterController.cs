@@ -23,17 +23,15 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private float _lerpExitDuration;
 
     private bool _moving = false;
-    
-    public void Awake() {
+
+    public void Start()
+    {
         // creates new command "switch_sprite"
         _dialogueRunner.AddCommandHandler(
             "switch_sprite", // the name of the command
             switchSprite // the method to run
         );
-    }
-
-    public void Start()
-    {
+        
         InitializeCharacterDictionary();
     }
 
@@ -146,6 +144,11 @@ public class CharacterController : MonoBehaviour
     {
         _characterDictionary.Add("Arnold", _characterObjects[0]);
         _characterDictionary.Add("Boss", _characterObjects[1]);
+        _characterDictionary.Add("Folder", _characterObjects[2]);
+        _characterDictionary.Add("Stapler", _characterObjects[3]);
+        _characterDictionary.Add("Henry", _characterObjects[4]);
+        _characterDictionary.Add("Jason", _characterObjects[5]);
+        _characterDictionary.Add("Karen", _characterObjects[6]);
     }
 
     private Sprite GetExpression(string expression, GameObject charObject)

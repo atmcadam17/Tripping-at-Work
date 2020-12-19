@@ -3,10 +3,11 @@ tags: filing
 colorID: 0
 position: 308,272
 ---
-MC: Boss wanted me to grab some files from the archive for today’s meeting. He mentioned them being essential for the meeting later today… I better not screw this up. With the power of Arnold’s coffee, I am a productivity phenom!
+MC: Boss wanted me to grab some files from the archive for today’s meeting. He mentioned them being essential for the meeting later today… I better not screw this up.
+MC: With the power of Arnold’s coffee, I am a productivity phenom!
 MC: The archive is in the back of the office, but I’ve never been inside. Most of my time at this job so far has been spent glued to my cubicle. This task will be a nice change of pace. 
 MC: Helloooo file arch- WHAT THE?! 
-MC: THIS is the archive…? It looks like the cabinets stretch endlessly towards the heavens. How does this room even fit in the office? Why is there so much information on aglet sales? *text wobble* I think I’m getting dizzy. 
+MC: THIS is the archive…? It looks like the cabinets stretch endlessly towards the heavens. How does this room even fit in the office? Why is there so much information on aglet sales? I think I’m getting dizzy. 
 MC: *gulp* Now is NOT the time to projectile vomit onto the floor. I’ve been given a job, and I’m not gonna squander this opportunity. I’m going to get. That. File. What file did the boss ask for again?
 [[Last month’s budget review|last]]
 [[Monthly budget reviews|monthly]]
@@ -24,7 +25,7 @@ MC: I doubt that what I need is way up there. I think this coffee may be messing
 [[Use the ladder|ladder]]
 ===
 
-title: montly
+title: monthly
 tags: filing
 ---
 MC: I’m pretty sure the boss needed the monthly budget reviews for the previous quarter. That would mean the Q4 budget review is what I need to find. Where would I find that…? 
@@ -55,7 +56,6 @@ MC: So these drawers are as long as they are tall? Goodness gracious! Let’s se
 MC: … That voice did not just come out of that drawer.
 ???: Yes it did!
 MC: No it-
-A FOLDER APPEARS IN FRONT OF YOU
 Folder: Yes. It. Did. Put some respect on my name. My first time out of this drawer and I’m stuck with some fool who can’t even figure out where to find a budget review.
 MC: Ouch! For a folder, you’re kind of a jerk. 
 Folder: Being sandwiched between thousands of other versions of me in darkness isn’t exactly peachy. 
@@ -80,7 +80,9 @@ MC: There’s the December folder… for 1960. Let’s ruffle through a few deca
 MC: Wha-?! Who’s there? Gentle where?
 ???: Down here. You’re running your fingers through us a little rough buddy. 
 MC: In the drawer…? Who is speaking?
-A FOLDER APPEARS IN FRONT OF YOU
+
+<<switch_sprite 1 Folder neutral lerp>>
+
 Folder: Is your skull thicker than the paper I’m storing? It’s me, the folder, talking. 
 MC: Why are you, the folder, speaking? 
 Folder: Not many folks come by often. Being locked in a drawer for years, I’ve had a lot of time to think about what to say. 
@@ -90,7 +92,8 @@ Folder: I contain multitudes… of files. And questions! I’m more so curious t
 MC: What could you possibly be curious about? The most I’d expect you to know is whatever is stored between you.
 Folder: Each time someone has come and opened our drawer I’ve seen such a great big world beyond the endless rows of myself and… more of me? Am I my own folder, or are we all just the same? Is there a life for me beyond eternity in darkness? 
 MC: I definitely do not have time to humor your existential crisis. If you want to find some purpose, maybe helping me out would be useful. Please.
-Folder: Oh wow, how kind of you to ask.  All you humans care about are these dumb files, which lose value as time goes on! Nobody cares about us older folders! We’re useful for about 10 years at most, and then afterwards it’s as if you all just forget about us. We become another drop in the ocean, doomed to become even more insignificant as the next cabinet finds a spot in this seemingly endless archive.
+Folder: Oh wow, how kind of you to ask.  All you humans care about are these dumb files, which lose value as time goes on! Nobody cares about us older folders!
+We’re useful for about 10 years at most, and then afterwards it’s as if you all just forget about us. We become another drop in the ocean, doomed to become even more insignificant as the next cabinet finds a spot in this seemingly endless archive.
 MC: Well I’m here right now, and you’re kinda butchering your opportunity to be useful. A bit ironic if you ask me. 
 Folder: Perhaps the irony lies in the fact that you’re asking a folder a question you yourself should know the answer to.
 MC: Again, ouch! Alright.
@@ -115,7 +118,9 @@ MC: Whoever you are, you can’t take Employee of the Month from me!
 ???: It’s me! The folder!
 MC: Very funny, Arnold. Is this because I made fun of your marionette hobby? So you can puppeteer a folder? Reeeaaal impressive.
 ???: I’m not Arnold! I’m really a file!
-A FOLDER APPEARS IN FRONT OF YOU
+
+<<switch_sprite 1 Folder neutral lerp>>
+
 MC: What?!
 ...I can’t believe I’m talking to a folder right now.
 MC: What exactly are you?
@@ -162,7 +167,9 @@ MC: AHHHHHH!
 ???: That looked like a pretty bad fall.
 MC: No… God… Why have you forsaken me…
 ???: God? I’m not God. I’m just a folder.
-A FOLDER APPEARS IN FRONT OF YOU
+
+<<switch_sprite 1 Folder neutral lerp>>
+
 MC: A… A folder?!
 Folder: Yeah! I’m a folder. The name’s… uh… I guess you can just call me Folder.
 The folder doesn’t have a visible title. In fact, it’s completely blank.
@@ -203,7 +210,9 @@ MC: What was that??
 ???: Me! Right in front of you! The source of these very much real quords!
 MC: Quords… You mean words? Who are you??
 ???: Quo am I? I’m the quolder- I mean folder right in front of you!
-A FOLDER APPEARS IN FRONT OF YOU
+
+<<switch_sprite 1 Folder neutral lerp>>
+
 MC: A talking folder??
 Folder: And don’t you forquet it!
 MC: Why do you keep inserting Q’s into random words?!
@@ -223,4 +232,7 @@ Q4: Quite pleased to meet ya! Empty me! I’ve waited my entire life for this!
 Stacks of paper fly out of the folder. How is the budget review this large?
 Q4: Oh yeah… that really hits the spot. I haven’t been withdrawn from in such a long time, I felt like I was finna burst!
 MC: Well, I guess this is it. Thanks!
+
+<<switch_sprite 1 none x lerp>>
+<<load_next>>
 ===

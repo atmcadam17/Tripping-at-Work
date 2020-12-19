@@ -126,4 +126,5 @@ Well, thank you for your time today.
     That was... interesting. We, uh, might need to reconsider our offer.
     <<set_result lose>>
 <<endif>>
+<<load_next>>
 ===

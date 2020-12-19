@@ -1,0 +1,114 @@
+﻿title: final
+tags:
+---
+Now that my tasks are out of the way, I spot my chance. This is it!
+This is the moment that I go to the break room and find out whose coffee I had drank!
+I take a breath to steel myself before I push open the door.
+
+<<switch_background BreakRoom>>
+<<play_music Elevator>>
+
+As I enter the break room, an overwhelming smell of coffee hits me. Pure bitter coffee aroma, like someone bottled the air inside a Starbucks, multiplied it by a thousand, and injected it straight up my nostrils.
+Oh, Jesus, that’s strong.. I stagger a little bit as I survey my surroundings.
+It looks like I’ve come at the right time, while a coffee party is taking place. Around me, several of my coworkers are doing strange dances throughout the room. All of them are balancing coffee cups on their heads.
+
+<<switch_sprite 0 Karen coffee ease>>
+KAREN FROM HR: I feel like a prince!
+
+<<switch_sprite 1 Henry coffee ease>>
+HENRY FROM SALES: I feel like a duke!
+
+<<switch_sprite 2 Jason coffee ease>>
+JASON FROM SALES: I feel like an earl!
+
+And even… my boss?!
+
+<<switch_sprite 0 none x lerp>>
+<<switch_sprite 2 none x lerp>>
+<<switch_sprite 1 Boss coffee ease>>
+BOSS: I feel like a dictator with absolute power and riches who inherited their position not through merit, but through the privileges of their birth!
+<<switch_sprite 1 none x lerp>>
+
+Amazing… witnessing this coffee party, it’s unlike anything I’ve ever seen. The robust nature of everyone’s dances fills the air with invigoration, with energy.
+With the bitter tang of caffeine, and sweet afternotes of cinnamon and marshmallow cream... 
+With the sublime blend of three different coffee grounds mingling with zingy perfection…
+The… 
+...
+Wait! I shake my head and try to snap out of it. 
+I have no time to get distracted! I have to find out who made that spiked coffee!
+[[Talk to Karen from HR|karen]]
+===
+
+title: karen
+---
+<<switch_sprite 1 Karen coffee ease>>
+KAREN: Bonjour.
+MC: (thinking) Whoa, she’s speaking French…?
+MC: Hi. So what brings you here?
+KAREN: Well, I love coffee! Specifically the very fancy, expensive kinds of coffee. Those kinds of coffee are less of a beverage and more of a status symbol, like buying an extremely expensive watch.
+MC:  I never took you for a member of the upper class.
+KAREN: Well, that’s because I’m not. I work here, you know. But I can still live the fantasy through overwhelmingly expensive coffee.
+I might not be able to pay my bills every month, but I can have all of the expensive, bourgeoisie coffee that I want.
+MC: Okay…
+KAREN: People say I’m not good with money, but I’m always very good with my coffee budgeting. Now if you’ll excuse me, I came here to party.
+She turns away, refusing to talk to me any longer.
+Well, she doesn’t seem like the person who laced my coffee… or maybe she does…
+It’s hard to tell. I should question others before I decide.
+
+[[Talk to Henry from Sales|henry]]
+===
+
+title: henry
+---
+<<switch_sprite 1 Henry coffee ease>>
+
+HENRY: Hey, you. You’re finally awake.
+MC: What?
+HENRY: Nothing. I’m just thinking about the relationship between sleep and coffee. 
+You know, without coffee, I’m nothing. I’m just an empty husk of a man.
+I wouldn’t move. Or do anything human. I would just be a brainless zombie hungering for coffee.
+MC: You must really like coffee.
+HENRY: I truly believe that coffee is the blood of the holy. It grants me energy to go through my day. I’m just grateful for the existence of coffee.
+MC: So you wouldn’t happen to have left a cup of coffee in here?
+HENRY: Left… a cup of coffee…?
+That’s simply blasphemous to even suggest! I would never abandon any cups of coffee. Do you really think I’m that kind of person? I can’t believe you…! 
+Henry turns away, refusing to acknowledge me anymore.
+Well… I suppose there’s no point in pressuring him further. It seems pretty clear that I have my answer about him.
+
+[[Talk to Jason from Sales|jason]]
+===
+
+title: jason
+---
+<<switch_sprite 1 Jason coffee ease>>
+
+JASON: Shhh. Don’t tell anybody, but I… I actually think…
+He hesitates, and I can see a sheen of nervous sweat over his brow.
+I actually think…
+Tea is the superior beverage!
+MC: Wow…
+I can only imagine how the others I’ve talked to so far would react to such a statement. But luckily enough, no one seems to overhear him.
+JASON: Ahh, I feel like I’ve just gotten a huge weight off my shoulders. I’ve wanted to admit that for so long…
+But the people who like tea in this office are horrible people, I tell you. The tea parties they have are so boring.
+All they do is balance tea cups on their heads because it makes them feel like royalty.
+MC: And this is different from what they do in a coffee party…?
+JASON: It’s totally different! It’s so dull.
+But here at coffee parties, I’ve had more fun than I’ve had in months - no, years. 
+No... Maybe my entire life. I don’t think I’ve ever been more entertained, ever, than I’ve been at a coffee party. That’s why I love it here.
+MC: But you don’t actually drink or make any coffee?
+JASON: Well… You have to promise me you won’t tell anyone, but this mug on my head… 
+It’s actually filled with tea…
+They’ll kick me out of the party if you say anything though, so you have to promise me!
+Promise me you won’t tell anyone!
+He grabs my shoulders and shakes me violently up and down.
+MC: All right, all right, I promise! Your secret is safe with me.
+
+<<switch_sprite 1 none x lerp>>
+
+As soon as the words leave my mouth he lets me go. Shaken, I step away immediately.
+What a weird guy… 
+As I turn away from him, I catch sight of the final person in the break room that I have yet to speak to. My boss, himself, the person I’ve been trying so hard to impress this entire time.
+The sight of him fills my heart with apprehension.
+
+<<end_game>>
+===

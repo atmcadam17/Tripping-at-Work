@@ -1,0 +1,129 @@
+﻿title: afterPitch
+tags:
+---
+<<switch_background TrippyBreakRoom>>
+<<switch_sprite 1 Stapler neutral lerp>>
+
+STAPLER: HEY!
+
+<<play_music Office>>
+
+MC: Oh, it’s you again…
+STAPLER: YES, IT’S ME. Now what did I say about questioning Arnold?
+MC: Right, right. You want me to do that.
+STAPLER: So go ahead! Now’s your chance. Look, he’s standing right at his cubicle doing a strange dance. It looks like he’s perfectly open to be interrogated.
+
+<<switch_background TrippyOffice>>
+<<switch_sprite 1 Arnold neutral instant>>
+
+I look over to his cubicle. Sure enough, I can see Arnold right there.
+
+<<switch_sprite 1 Stapler neutral instant>>
+<<switch_background TrippyBreakRoom>>
+
+STAPLER: Go before you run out of time!
+So dutifully, I get out of my chair and walk towards him.
+
+<<switch_background TrippyOffice>>
+<<switch_sprite 1 Arnold neutral instant>>
+
+MC: Hey, so about that coffee.
+
+[[What was in it?|what]]
+[[Whose coffee was it?|who]]
+===
+
+title: what
+---
+ARNOLD: Just coffee stuff… the best kind of coffee stuff.
+MC: Please be more specific.
+ARNOLD: Bitter brown coffee stuff… or maybe dirt...
+No… probably not dirt. 
+I know exactly what dirt tastes and smells like, and I don’t think that coffee had dirt in it. 
+In fact, I’m about eighty nine percent sure there was no dirt at all in that coffee.
+MC: Wow, really helpful. 
+ARNOLD: Thank you. But you know, that coffee was REALLY dark.
+ I don’t know anybody who drinks coffee that dark.
+Well… except… me, Karen from HR, Henry from sales, and the boss.
+
+[[Then… whose coffee was it?|who2]]
+===
+
+title: what2
+---
+ARNOLD: Just coffee stuff… the best kind of coffee stuff.
+MC: Please be more specific.
+ARNOLD: Bitter brown coffee stuff… or maybe dirt...
+No… probably not dirt. 
+I know exactly what dirt tastes and smells like, and I don’t think that coffee had dirt in it. 
+In fact, I’m about eighty nine percent sure there was no dirt at all in that coffee.
+MC: Wow, really helpful. 
+ARNOLD: Thank you. But you know, that coffee was REALLY dark.
+ I don’t know anybody who drinks coffee that dark.
+Well… except… me, Karen from HR, Henry from sales, and the boss.
+
+[[rejoin]]
+===
+
+title: who
+---
+ARNOLD: Not mine, like I told you. I just found it there, sitting out like a present for whoever finds it first.
+But you know, not many employees actually drink the coffee from the machine in the break room.
+MC: Okay… wow… So who does?
+ARNOLD: Me, Jason from sales, Karen from HR, and the boss.
+You know, sometimes we have coffee parties there.
+We make coffee, pour it into cups, and then balance the cups on our heads for our entire break time. It makes us feel like royalty.
+You should join us, sometime. Consider this an open invitation.
+MC: Uh… interesting, okay. I’ll keep it in mind.
+
+[[So, anyway, what exactly was in that coffee?|what2]]
+===
+
+title: who2
+---
+ARNOLD: Not mine, like I told you. I just found it there, sitting out like a present for whoever finds it first.
+But you know, not many employees actually drink the coffee from the machine in the break room.
+MC: Okay… wow… So who does?
+ARNOLD: Me, Jason from sales, Karen from HR, and the boss.
+You know, sometimes we have coffee parties there.
+We make coffee, pour it into cups, and then balance the cups on our heads for our entire break time. It makes us feel like royalty.
+You should join us, sometime. Consider this an open invitation.
+MC: Uh… interesting, okay. I’ll keep it in mind.
+
+[[rejoin]]
+===
+
+title: rejoin
+---
+I end my conversation with Arnold as soon as possible, and return to the stapler with this new information.
+
+<<switch_sprite 1 Stapler neutral lerp>>
+
+STAPLER: So, what did you find out?
+
+[[The coffee has no dirt in it.|dirt]]
+[[There are coffee parties in the breakroom where they balance coffee cups on their heads which makes them feel like royalty.|party]]
+===
+
+title: dirt
+---
+STAPLER: Well, obviously it doesn’t. Only the really exclusive French avant-garde blends have dirt in them. Did you think you could find that in THIS office?
+MC: I guess not…
+STAPLER: The person who made that coffee certainly can’t be French, then...
+Have you found anything else?
+[[There are coffee parties in the breakroom where they balance coffee cups on their heads which makes them feel like royalty.|party]]
+===
+
+title: party
+---
+STAPLER: Wow, sounds like delightful fun. Did you get invited?
+MC: Yeah… 
+STAPLER: That’s GREAT! This is a perfect opportunity! There’s no shadow of a doubt that the person responsible for making you like this must be one of these coffee party-goers!
+Now all you have to do is attend one of these parties. The culprit has got to be there.
+MC: Ugh, I can’t believe I’m actually agreeing to going to a party during company hours… but if it’s the best lead that I have right now, I don’t really have a choice...
+I pause to check my watch.
+MC: But that employee of the month award comes first! I have to get going on my next task!
+
+<<switch_sprite 1 none neutral lerp>>
+<<load_next>>
+===

@@ -3,7 +3,7 @@ tags:
 ---
 <<switch_background Boss>>
 <<play_music Office>>
-<<switch_sprite 1 Boss neutral ease>>
+<<switch_sprite 1 Boss neutral lerp>>
 
 Boss: Good morning, I noticed you were late today. Is everything alright?
 

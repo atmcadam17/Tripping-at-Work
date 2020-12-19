@@ -124,7 +124,7 @@ Then, I go back to work, feeling even more tired than before…
 Boss: HEY! YOU! Have you been asleep this WHOLE TIME?
 
 <<switch_background Office>>
-<<switch_sprite 1 Boss neutral none>>
+<<switch_sprite 1 Boss neutral instant>>
 
 Boss: I can’t believe I ever considered you for employee of the month…!!
 MC: What…?
