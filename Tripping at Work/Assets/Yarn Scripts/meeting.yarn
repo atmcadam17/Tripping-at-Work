@@ -1,8 +1,12 @@
 ﻿title: meeting
 tags:
 ---
-// Picture of boss office. It’s a bit fancier than the rest of the office
+<<switch_background Boss>>
+<<play_music Office>>
+<<switch_sprite 1 Boss neutral lerp>>
+
 Boss: Good morning, I noticed you were late today. Is everything alright?
+
 [[Things are great!|yes]]
 [[Nod.|nod]]
 ===
@@ -23,11 +27,10 @@ title: meetingRejoin
 ---
 Boss: …Right. Anyway, I passed by your cubicle earlier to inform you of your tasks for the day, but you weren’t here yet. Now that you are here, let’s run through your tasks for today.
 MC: Roger that, sir.
-Boss: To start things off, I need you to take a call with one of our new clients. They’ve scheduled to call at 11:00 AM. Unfortunately, that conflicts with my schedule, but I feel that you’ve been working with us for long enough that it shouldn’t be too much to handle.
-Boss: Afterward, there are some files in the archive that I need you to grab. They are monthly budget reviews of this fiscal year. They’re essential in discussing our quarterly review which is this afternoon after lunch, which I also need you to be present for. 
-MC: Okay, anything else? 
-Boss: Yes. I also need you to pick up some lunch orders right before the meeting because our intern called in sick. I’ll leave a note with the orders on your desk later.
-Boss: Lastly, Corporate wants us to start using social media. According to a study they read, having an active social media presence is good for business so of course, they want us to do something about it.
+Boss: To start things off, there are some files in the archive that I need you to grab.
+Boss: They are monthly budget reviews for this fiscal quarter. They’re essential in discussing our quarterly review which is this afternoon after lunch, which I also need you to be present for. 
+MC: Okay, anything else?
+Boss: Yes. Corporate wants us to start using social media. According to a study they read, having an active social media presence is good for business so of course, they want us to do something about it.
 Boss: I’m not entirely too sure what you should be posting, but hey, you’re young! You know what’s hip these days; take some notes from Arby’s Twitter and keep things PG. That’s all I’ve got for ya.
 [[Understood.|startWork]]
 [[Can you repeat that?|repeat]]
@@ -36,11 +39,14 @@ Boss: I’m not entirely too sure what you should be posting, but hey, you’re 
 title: startWork
 ---
 MC: Thanks, boss. I’ll get right to it!
+<<load_next>>
 ===
 
 title: repeat
 ---
 MC: Can you run through it again, please?
-Boss: Okay, sure. Call our new client at 11:00. Get files from the archive. Pick up lunch orders. Attend quarterly review. Post on our social media. Got it?
+Boss: Okay, sure. Get files from the archive. Attend quarterly review. Post on our social media. Got it?
 MC: Got it.
+
+<<load_next>>
 ===

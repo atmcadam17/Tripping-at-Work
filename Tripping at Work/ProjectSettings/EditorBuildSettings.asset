@@ -6,6 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Start.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/InvestorPitch.unity
+    guid: 52601c06a457d4f58a4a0a1753475034
+  - enabled: 1
+    path: Assets/Scenes/FilingComplete.unity
+    guid: 900cc65401b724a01822398b0c47c335
+  - enabled: 1
+    path: Assets/Scenes/BadEnd.unity
+    guid: f10b0d7a3ecee46fb83051b16b18c74e
+  - enabled: 1
+    path: Assets/Scenes/FilingRoom.unity
+    guid: 285b0699d79ef4bd7995773739494fe8
+  - enabled: 1
+    path: Assets/Scenes/GoodEnd.unity
+    guid: 6f13888ce67a94733b9925090de17763
+  - enabled: 1
+    path: Assets/Scenes/PitchComplete.unity
+    guid: a410d750b7b9d4447840490f29214c9b
+  - enabled: 1
+    path: Assets/Scenes/SocialMedia.unity
+    guid: 9cd3183da3910459ab9fbe3b97918dc5
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 85c6b34f412804cdcb91284b8cccaa92
   m_configObjects: {}

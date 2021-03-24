@@ -375,7 +375,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a222f1f3373f14300a669388cb8ad8d5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.9
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -867,22 +867,6 @@ PrefabInstance:
     - target: {fileID: 2922213601270925526, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922213601928843010, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
-      propertyPath: m_Color.r
-      value: 0.5377358
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922213601928843010, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
-      propertyPath: m_Color.g
-      value: 0.5377358
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922213601928843010, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
-      propertyPath: m_Color.b
-      value: 0.5377358
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922213601928843010, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
-      propertyPath: m_Color.a
-      value: 0.7294118
       objectReference: {fileID: 0}
     - target: {fileID: 2922213602329414675, guid: 7db087d8cb1654e559f9fbb5ec26bebc, type: 3}
       propertyPath: m_AnchoredPosition.y
